@@ -1,5 +1,5 @@
 import 'package:pocketbase/pocketbase.dart';
-import 'package:ubuapp/main.dart';
+import 'package:ubuapp/mockup/data.dart';
 
 
 Future<void> loaddata() async {
