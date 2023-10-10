@@ -36,9 +36,12 @@ class _StateFirstPage extends State<FirstPage> {
                 right: 0,
                 child: Column(
                   children: [
-                    Image.asset(
-                      'images/sci.png',
-                      width: 130,
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(360),
+                      child: Image.asset(
+                        "assets/icons/user.png",
+                        width: 130,
+                      ),
                     ),
                     const Text(
                       'UBU Classroom',
